@@ -1,7 +1,7 @@
 {
-  "name"         : "or-cachejs",
+  "name"         : "base64js",
   "version"      : "0.0.1",
-  "main"         : "./src/cache.js",
+  "main"         : "./src/base64.js",
   "dependencies" : {
     "backbone" : "*"
   }
