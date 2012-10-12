@@ -1,0 +1,17 @@
+{
+  "name"            : "base64js",
+  "description"     : "Base64 Encoding/Decoding",
+  "version"         : "0.1.0",
+  "repository"      : {
+    "type" : "git",
+    "url"  : "git://git@git.onehealth.com:2022/base64js.git"
+  },
+  "scripts"         : {
+    "test" : "grunt jasmine"
+  },
+  "devDependencies" : {
+    "grunt-jasmine-runner" : "latest",
+    "grunt"                : "~0.3.16",
+    "grunt-open"           : "~0.1.0"
+  }
+}
