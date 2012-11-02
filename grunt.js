@@ -10,18 +10,17 @@ module.exports = function (grunt) {
     concat: {
       dist: {
         src  : ['<banner:meta.banner>', 'src/base64.js'],
-        dest : 'build/base64.js'
+        dest : 'dist/base64.js'
       }
     },
     min    : {
       dist: {
         src  : ['<banner:meta.banner>', '<config:concat.dist.dest>'],
-        dest : 'build/base64.min.js'
+        dest : 'dist/base64.min.js'
       }
     },
     lint   : {
       src   : 'src/**/*.js',
-      grunt : 'grunt.js',
       tests : [
         'spec/**/*Spec.js'
       ]
@@ -42,7 +41,8 @@ module.exports = function (grunt) {
         es5     : true
       },
       globals : {
-        jQuery : true
+        window : false,
+        jQuery : false
       },
       grunt   : {
         options : {node : true},
@@ -59,6 +59,7 @@ module.exports = function (grunt) {
       },
       tests   : {
         globals : {
+          window    : false,
           jasmine    : false,
           describe   : false,
           beforeEach : false,
@@ -102,11 +103,11 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-open');
 
   // Default task.
-  grunt.registerTask('default', 'lint jasmine');
+  grunt.registerTask('default', 'test');
   grunt.registerTask('dev', 'server open:dev watch');
-  grunt.registerTask('test', 'jasmine');
+  grunt.registerTask('test', 'lint jasmine');
   grunt.registerTask('test-web', 'jasmine-server');
-  grunt.registerTask('build', 'lint concat min jasmine');
+  grunt.registerTask('build', 'test concat min');
 
   grunt.registerTask('build-notest', 'lint concat min');
 
