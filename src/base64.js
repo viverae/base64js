@@ -15,7 +15,6 @@
       /**
        * Base64 Encode String
        * Based Off Of Yahoo's Implementation
-       * @diff Replace("+", ".").Replace("/", "_").Replace("=", "-") <-- To Match With PHP Base64_encode
        * @param string
        */
       encode : function (string) {

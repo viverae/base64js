@@ -1,10 +1,10 @@
 {
   "name"            : "base64js",
-  "description"     : "Base64 Encoding/Decoding",
+  "description"     : "Browser safe Base64 encode/decode",
   "version"         : "0.1.0",
   "repository"      : {
     "type" : "git",
-    "url"  : "git://git@git.onehealth.com:2022/base64js.git"
+    "url"  : "https://github.com/onehealth/base64js.git"
   },
   "scripts"         : {
     "test" : "grunt jasmine"
