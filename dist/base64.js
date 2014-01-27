@@ -1,5 +1,3 @@
-/*! base64js - v0.1.0 - 2012-11-02 */
-
 /*jshint*/
 /*global define */
 

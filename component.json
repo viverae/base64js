@@ -1,8 +1,0 @@
-{
-  "name"         : "base64js",
-  "version"      : "0.1.0",
-  "main"         : "./src/base64.js",
-  "dependencies" : {
-  }
-}
-
