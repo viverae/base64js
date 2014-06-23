@@ -1,5 +1,4 @@
-# Base64js
-================
+# Base64js  [![Build Status](https://travis-ci.org/onehealth/base64js.png?branch=master)](https://travis-ci.org/onehealth/base64js) 
 
 This implementation of base64 leverages the y64 web-safe adjustments.
 
