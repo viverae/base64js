@@ -29,6 +29,7 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 ## Release History
 
 
+- 0.1.2 Updated UMD Definition to include exports
 - 0.1.1 Updated Build Dependencies
 - 0.1.0 Initial release
 
