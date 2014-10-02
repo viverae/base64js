@@ -4,7 +4,14 @@ This implementation of base64 leverages the y64 web-safe adjustments.
 
 ## Installation
 
-`bower install jsbase64`
+Node
+
+`npm install onehealth/base64js --save`
+
+Browser
+
+`bower install onehealth/base64js --save`
+
 
 ## Getting Started
 
