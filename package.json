@@ -1,5 +1,5 @@
 {
-  "name": "base64js",
+  "name": "jsbase64",
   "description": "Browser safe Base64 encode/decode",
   "version": "0.1.0",
   "repository": {

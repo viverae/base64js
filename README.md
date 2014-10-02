@@ -2,6 +2,9 @@
 
 This implementation of base64 leverages the y64 web-safe adjustments.
 
+## Installation
+
+`bower install jsbase64`
 
 ## Getting Started
 

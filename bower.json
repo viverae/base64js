@@ -1,5 +1,5 @@
 {
-  "name"    : "base64js",
+  "name"    : "jsbase64",
   "version": "0.1.0",
   "main"    : "dist/base64.min.js",
   "ignore"  : [
